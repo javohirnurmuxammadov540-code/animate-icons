@@ -203,15 +203,15 @@ input,textarea{font-size:16px}
 <script>
 /* ---------- i18n: English, Russian, Uzbek ---------- */
 const T={
-en:{brandTitle:"Animated icons, ready to copy.",brandText:"Browse, share and copy code for animated icons. Everything is shared with everyone.",register:"Sign up",login:"Log in",fullName:"Full name",email:"Email",password:"Password",createAcc:"Create account",signIn:"Log in",
+en:{brandTitle:"Animated icons, ready to copy.",brandText:"Browse, share and copy code for animated icons. Everything is stored in your browser.",register:"Sign up",login:"Log in",fullName:"Full name",email:"Email",password:"Password",createAcc:"Create account",signIn:"Log in",
 regTitle:"Create your account",logTitle:"Welcome back",addIcon:"Add icon",tgChannel:"Telegram channel",donate:"Donate",heroTitle:"Animation Icons",heroText:"The most needed and the most important.",search:"Search icons…",noResults:"No icons found. Try another word or add your own.",
 copy:"Copy code",copied:"Code copied",del:"Delete",by:"by",footText:"A free library of animated icons shared by the community.",iconName:"Icon name",iconCode:"Icon code (SVG + CSS)",cancel:"Cancel",save:"Add to library",
 delAcc:"Delete my account",confirmDelIcon:"Delete this icon?",confirmDelAcc:"Delete your account? Your icons stay in the library.",errFill:"Fill in all fields.",errPass:"Password must be at least 6 characters.",errExists:"This email is already registered. Log in instead.",errBad:"Wrong email or password.",errName:"Enter a name and some code.",saved:"Icon added",logout:"Log out"},
-ru:{brandTitle:"Анимированные иконки — копируйте код.",brandText:"Смотрите, делитесь и копируйте код анимированных иконок. Всё хранится в общей библиотеке.",register:"Регистрация",login:"Вход",fullName:"Полное имя",email:"Эл. почта",password:"Пароль",createAcc:"Создать аккаунт",signIn:"Войти",
+ru:{brandTitle:"Анимированные иконки — копируйте код.",brandText:"Смотрите, делитесь и копируйте код анимированных иконок. Всё хранится в вашем браузере.",register:"Регистрация",login:"Вход",fullName:"Полное имя",email:"Эл. почта",password:"Пароль",createAcc:"Создать аккаунт",signIn:"Войти",
 regTitle:"Создайте аккаунт",logTitle:"С возвращением",addIcon:"Добавить иконку",tgChannel:"Telegram-канал",donate:"Поддержать",heroTitle:"Animation Icons",heroText:"Самое нужное и самое важное.",search:"Поиск иконок…",noResults:"Иконки не найдены. Попробуйте другое слово или добавьте свою.",
 copy:"Копировать код",copied:"Код скопирован",del:"Удалить",by:"автор",footText:"Бесплатная библиотека анимированных иконок от сообщества.",iconName:"Название иконки",iconCode:"Код иконки (SVG + CSS)",cancel:"Отмена",save:"Добавить в библиотеку",
 delAcc:"Удалить мой аккаунт",confirmDelIcon:"Удалить эту иконку?",confirmDelAcc:"Удалить аккаунт? Ваши иконки останутся в библиотеке.",errFill:"Заполните все поля.",errPass:"Пароль должен быть не короче 6 символов.",errExists:"Эта почта уже зарегистрирована. Войдите.",errBad:"Неверная почта или пароль.",errName:"Введите название и код.",saved:"Иконка добавлена",logout:"Выйти"},
-uz:{brandTitle:"Animatsiyali ikonlar, kodini nusxalang.",brandText:"Animatsiyali ikonlarni ko'ring, ulashing va kodini nusxalang. Hammasi umumiy kutubxonada saqlanadi.",register:"Ro'yxatdan o'tish",login:"Kirish",fullName:"To'liq ism",email:"E-pochta",password:"Parol",createAcc:"Akkaunt yaratish",signIn:"Kirish",
+uz:{brandTitle:"Animatsiyali ikonlar, kodini nusxalang.",brandText:"Animatsiyali ikonlarni ko'ring, ulashing va kodini nusxalang. Hammasi brauzeringizda saqlanadi.",register:"Ro'yxatdan o'tish",login:"Kirish",fullName:"To'liq ism",email:"E-pochta",password:"Parol",createAcc:"Akkaunt yaratish",signIn:"Kirish",
 regTitle:"Akkaunt yarating",logTitle:"Xush kelibsiz",addIcon:"Icon qo'shish",tgChannel:"Telegram kanal",donate:"Donatlar uchun",heroTitle:"Animation Icons",heroText:"Eng kerakli va muhim.",search:"Iconlarni qidirish…",noResults:"Icon topilmadi. Boshqa so'z yozing yoki o'zingiznikini qo'shing.",
 copy:"Kodni nusxalash",copied:"Kod nusxalandi",del:"O'chirish",by:"muallif",footText:"Hamjamiyat ulashgan animatsiyali iconlarning bepul kutubxonasi.",iconName:"Icon nomi",iconCode:"Icon kodi (SVG + CSS)",cancel:"Bekor qilish",save:"Kutubxonaga qo'shish",
 delAcc:"Akkauntimni o'chirish",confirmDelIcon:"Bu iconni o'chirasizmi?",confirmDelAcc:"Akkauntni o'chirasizmi? Iconlaringiz kutubxonada qoladi.",errFill:"Barcha maydonlarni to'ldiring.",errPass:"Parol kamida 6 ta belgidan iborat bo'lsin.",errExists:"Bu e-pochta ro'yxatdan o'tgan. Kirish bo'limidan kiring.",errBad:"E-pochta yoki parol noto'g'ri.",errName:"Nom va kodni kiriting.",saved:"Icon qo'shildi",logout:"Chiqish"}
@@ -234,7 +234,7 @@ const SEED=[
 ["Spinning star",'<svg viewBox="0 0 24 24" width="64" height="64" class="st"><path fill="#6366F1" d="m12 2 3 6.5 7 .8-5.2 4.8 1.5 7L12 17.5 5.7 21l1.5-7L2 9.3l7-.8z"/></svg>\n<style>.st{animation:sp 3s ease-in-out infinite}@keyframes sp{50%{transform:rotate(180deg) scale(1.15)}100%{transform:rotate(360deg)}}</style>'],
 ["Draw check",'<svg viewBox="0 0 52 52" width="64" height="64"><circle cx="26" cy="26" r="23" fill="none" stroke="#10B981" stroke-width="3"/><path class="c" fill="none" stroke="#10B981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M15 27l8 8 14-16"/></svg>\n<style>.c{stroke-dasharray:40;stroke-dashoffset:40;animation:d 1.8s ease infinite}@keyframes d{60%,100%{stroke-dashoffset:0}}</style>']
 ].map((x,i)=>({id:'seed'+i,name:x[0],code:x[1],author:'Animate Icons',owner:null,ts:0}));
-const icons=()=>SEED.concat(cloud);
+const icons=()=>SEED.concat(S.get('ai_icons',[]));
 
 /* ---------- i18n apply ---------- */
 function applyLang(){
@@ -246,38 +246,29 @@ function applyLang(){
   const u=cur();if(u){$('uname').textContent=u.name.split(' ')[0]+' · '+t('logout');}
   if(!$('site').classList.contains('hidden'))render();
 }
-/* ---------- simple sign-up (local, not real security) ---------- */
-const cur=()=>S.get('ai_session',null);
+/* ---------- auth ---------- */
+async function hash(p){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('ai:'+p));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+const users=()=>S.get('ai_users',[]);
+const cur=()=>{const e=S.get('ai_session',null);return users().find(u=>u.email===e)||null};
 function aerr(m){const e=$('aerr');e.textContent=m;e.classList.toggle('hidden',!m)}
 function setMode(m){mode=m;$('fReg').classList.toggle('hidden',m!=='reg');$('fLog').classList.toggle('hidden',m!=='log');$('tReg').classList.toggle('on',m==='reg');$('tLog').classList.toggle('on',m==='log');aerr('');$('ftitle').textContent=t(m==='reg'?'regTitle':'logTitle')}
-function doReg(e){e.preventDefault();
+async function doReg(e){e.preventDefault();
   const n=$('rn').value.trim(),em=$('re').value.trim().toLowerCase(),p=$('rp').value;
-  if(!n||!em||!p)return aerr(t('errFill')),false;
-  const nm=S.get('ai_names',{});nm[em]=n;S.set('ai_names',nm);
-  S.set('ai_session',{id:em,name:n});start();return false}
-function doLog(e){e.preventDefault();
-  const em=$('le').value.trim().toLowerCase();
-  if(!em||!$('lp').value)return aerr(t('errFill')),false;
-  const n=S.get('ai_names',{})[em]||em.split('@')[0];
-  S.set('ai_session',{id:em,name:n});start();return false}
+  if(!n||!em||!p)return aerr(t('errFill'),false);
+  if(p.length<6)return aerr(t('errPass'));
+  if(users().some(u=>u.email===em))return aerr(t('errExists'));
+  const us=users();us.push({id:'u'+Date.now(),name:n,email:em,hash:await hash(p)});S.set('ai_users',us);S.set('ai_session',em);start();return false}
+async function doLog(e){e.preventDefault();
+  const em=$('le').value.trim().toLowerCase(),h=await hash($('lp').value);
+  const u=users().find(u=>u.email===em&&u.hash===h);
+  if(!u)return aerr(t('errBad'));
+  S.set('ai_session',em);start();return false}
 function logout(){S.set('ai_session',null);start()}
-function delAcc(){if(!cur()||!confirm(t('confirmDelAcc')))return;S.set('ai_session',null);start()}
+function delAcc(){const u=cur();if(!u||!confirm(t('confirmDelAcc')))return;
+  S.set('ai_users',users().filter(x=>x.id!==u.id));S.set('ai_session',null);start()}
+/* logged-in users go straight to the site; no repeat registration */
 function start(){const u=cur();$('auth').classList.toggle('hidden',!!u);$('site').classList.toggle('hidden',!u);
-  if(!u){setMode('reg')}applyLang();window.scrollTo(0,0)}
-/* ---------- shared icons: Firestore REST (only projectId needed) ---------- */
-const PROJECT_ID="SHU_YERGA";
-const API='https://firestore.googleapis.com/v1/projects/'+PROJECT_ID+'/databases/(default)/documents/icons';
-let cloud=[];
-const sv=o=>o&&(o.stringValue!==undefined?o.stringValue:o.integerValue)||'';
-async function load(){
-  try{const r=await fetch(API+'?pageSize=300');if(!r.ok)throw 0;const j=await r.json();
-    cloud=(j.documents||[]).map(d=>{const f=d.fields||{};return{id:d.name.split('/').pop(),name:sv(f.name),code:sv(f.code),author:sv(f.author),owner:sv(f.owner),ts:+sv(f.ts)||0}}).sort((a,b)=>b.ts-a.ts);
-    if(!$('site').classList.contains('hidden'))render()}catch(e){}}
-async function addIcon(o){
-  try{const r=await fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({fields:{name:{stringValue:o.name},code:{stringValue:o.code},author:{stringValue:o.author},owner:{stringValue:o.owner},ts:{integerValue:String(Date.now())}}})});
-    if(!r.ok)throw 0;toast(t('saved'))}catch(e){toast('Error: Firebase projectId / rules')}
-  load()}
-async function delIcon(id){try{await fetch(API+'/'+id,{method:'DELETE'})}catch(e){toast('Error')}load()}
+  if(!u){setMode(users().length?'log':'reg')}applyLang();window.scrollTo(0,0)}
 /* ---------- gallery ---------- */
 const frame=c=>'<!doctype html><body style="margin:0;display:grid;place-items:center;height:100vh;background:transparent;font-family:sans-serif">'+c;
 function render(){
@@ -289,9 +280,9 @@ function render(){
 $('grid').addEventListener('click',async e=>{
   const c=e.target.closest('[data-copy]'),d=e.target.closest('[data-del]');
   if(c){const i=icons().find(x=>x.id===c.dataset.copy);try{await navigator.clipboard.writeText(i.code)}catch(_){const a=document.createElement('textarea');a.value=i.code;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()}toast(t('copied'))}
-  if(d){const u=cur(),i=icons().find(x=>x.id===d.dataset.del);
+  if(d){const u=cur(),all=S.get('ai_icons',[]),i=all.find(x=>x.id===d.dataset.del);
     if(!u||!i||i.owner!==u.id||!confirm(t('confirmDelIcon')))return; /* only the owner can delete */
-    delIcon(i.id)}
+    S.set('ai_icons',all.filter(x=>x.id!==i.id));render()}
 });
 function toast(m){const e=$('toast');e.textContent=m;e.classList.add('on');setTimeout(()=>e.classList.remove('on'),1800)}
 /* ---------- add icon ---------- */
@@ -300,10 +291,10 @@ function closeAdd(){$('modal').classList.add('hidden')}
 function prevIt(){$('pf').srcdoc=frame($('ic').value)}
 function saveIcon(){const u=cur(),n=$('in').value.trim(),c=$('ic').value.trim();
   if(!u)return;if(!n||!c){$('merr').textContent=t('errName');$('merr').classList.remove('hidden');return}
-  addIcon({name:n,code:c,author:u.name,owner:u.id});closeAdd()}
+  const all=S.get('ai_icons',[]);all.unshift({id:'i'+Date.now(),name:n,code:c,author:u.name,owner:u.id,ts:Date.now()});S.set('ai_icons',all);
+  closeAdd();render();toast(t('saved'))}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAdd()});
-if(PROJECT_ID==='SHU_YERGA')console.warn('PROJECT_ID yozilmagan');
-start();load();setInterval(load,20000);
+start();
 </script>
 </body>
 </html>
